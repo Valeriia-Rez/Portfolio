@@ -1,6 +1,39 @@
+:root {
+    --main-color: rgb(83, 162, 199);
+    --secondary-color: rgba(247, 104, 116, 0.705);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-second {
+    background-color: var(--secondary-color);
+}
+
+.bg-home {
+    background-color: rgb(124, 199, 235);
+}
+
+.bg-resume {
+    background-color: rgb(91, 182, 224);
+}
+
+.bg-work {
+    background-color: rgb(65, 159, 202);
+}
+
+.bg-contact {
+    background-color: rgb(27, 141, 194);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
 #main-header img {
     width: 100%;
-    height: 100%;
+    height: 395px;
 }
 
 #main-header .port-item {
@@ -8,13 +41,27 @@
 }
 
 #main-header .port-item:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     cursor: pointer;
 }
 
-.bg-black {
-    color: #fff;
-    background: #000;
+.qualities {
+    padding: 5%;
+}
+
+.qualities-icon {
+    color: rgb(27, 141, 194);
+    font-size: 150%;
+    display: block;
+}
+
+.project {
+    height: 300px;
+    border: 1px solid silver;
+}
+
+.project-img {
+    height: 250px;
 }
 
 @media(min-width:1199px) {
