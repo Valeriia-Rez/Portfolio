@@ -2,11 +2,16 @@
     --main-color: rgb(83, 162, 199);
     --secondary-color: rgba(247, 104, 116, 0.705);
     --tertiary-color: rgb(124, 199, 235);
+    --title-color: rgba(206, 22, 38, 0.705);
 }
 
 body {
     color: #555;
     font-family: Lato, Arial, sans-serif;
+}
+
+h2 {
+    color: var(--title-color);
 }
 
 .bg-main {
